@@ -69,7 +69,7 @@ enum Environment: string
     public function retrieveTransaction(string $transaction_id): array
     {
         return [
-            'method' => 'POST',
+            'method' => 'GET',
             'uri' => match ($this) {
                 self::Demo => "https://demo-api.vivapayments.com/checkout/v2/transactions/$transaction_id",
                 self::Live => "https://api.vivapayments.com/checkout/v2/transactions/$transaction_id",
