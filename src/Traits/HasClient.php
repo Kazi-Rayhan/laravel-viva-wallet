@@ -1,6 +1,6 @@
 <?php
 
-namespace Deyjandi\VivaWallet\Traits;
+namespace KaziRayhan\VivaWallet\Traits;
 
 use GuzzleHttp\Client;
 

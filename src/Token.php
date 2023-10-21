@@ -1,11 +1,11 @@
 <?php
 
-namespace Deyjandi\VivaWallet;
+namespace KaziRayhan\VivaWallet;
 
 use Carbon\CarbonImmutable;
-use Deyjandi\VivaWallet\Contracts\AuthToken;
-use Deyjandi\VivaWallet\Traits\HasClient;
-use Deyjandi\VivaWallet\Traits\HasEnv;
+use KaziRayhan\VivaWallet\Contracts\AuthToken;
+use KaziRayhan\VivaWallet\Traits\HasClient;
+use KaziRayhan\VivaWallet\Traits\HasEnv;
 use Illuminate\Support\Facades\Cache;
 
 class Token implements AuthToken

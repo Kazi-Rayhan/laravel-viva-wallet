@@ -1,9 +1,9 @@
 <?php
 
-namespace Deyjandi\VivaWallet\Enums;
+namespace KaziRayhan\VivaWallet\Enums;
 
-use Deyjandi\VivaWallet\Helpers\ClientAuth;
-use Deyjandi\VivaWallet\Token;
+use KaziRayhan\VivaWallet\Helpers\ClientAuth;
+use KaziRayhan\VivaWallet\Token;
 
 enum Environment: string
 {

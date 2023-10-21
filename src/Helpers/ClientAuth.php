@@ -1,8 +1,8 @@
 <?php
 
-namespace Deyjandi\VivaWallet\Helpers;
+namespace KaziRayhan\VivaWallet\Helpers;
 
-use Deyjandi\VivaWallet\Contracts\AuthToken;
+use KaziRayhan\VivaWallet\Contracts\AuthToken;
 
 class ClientAuth
 {

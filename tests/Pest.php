@@ -1,5 +1,5 @@
 <?php
 
-use Deyjandi\VivaWallet\Tests\TestCase;
+use KaziRayhan\VivaWallet\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

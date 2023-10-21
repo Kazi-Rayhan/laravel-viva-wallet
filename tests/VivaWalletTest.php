@@ -1,7 +1,7 @@
 <?php
 
-use Deyjandi\VivaWallet\Facades\VivaWallet;
-use Deyjandi\VivaWallet\Payment;
+use KaziRayhan\VivaWallet\Facades\VivaWallet;
+use KaziRayhan\VivaWallet\Payment;
 
 it('can create payment order', function () {
     expect(

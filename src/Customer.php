@@ -1,9 +1,9 @@
 <?php
 
-namespace Deyjandi\VivaWallet;
+namespace KaziRayhan\VivaWallet;
 
-use Deyjandi\VivaWallet\Enums\RequestLang;
-use Deyjandi\VivaWallet\Traits\FiltersUnsetData;
+use KaziRayhan\VivaWallet\Enums\RequestLang;
+use KaziRayhan\VivaWallet\Traits\FiltersUnsetData;
 use InvalidArgumentException;
 
 /**

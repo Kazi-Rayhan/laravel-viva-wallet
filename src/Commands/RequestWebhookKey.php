@@ -1,8 +1,8 @@
 <?php
 
-namespace Deyjandi\VivaWallet\Commands;
+namespace KaziRayhan\VivaWallet\Commands;
 
-use Deyjandi\VivaWallet\Facades\VivaWallet;
+use KaziRayhan\VivaWallet\Facades\VivaWallet;
 use Illuminate\Console\Command;
 
 class RequestWebhookKey extends Command

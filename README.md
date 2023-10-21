@@ -1,19 +1,19 @@
 
 # Viva Wallet's API for Laravel applications
 
-![PHP Version](https://img.shields.io/packagist/php-v/deyjandi/laravel-viva-wallet)
+![PHP Version](https://img.shields.io/packagist/php-v/KaziRayhan/laravel-viva-wallet)
 ![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D8-red)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/deyjandi/laravel-viva-wallet.svg?style=flat-square)](https://packagist.org/packages/deyjandi/laravel-viva-wallet)
-![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/Deyjandi/laravel-viva-wallet/run-tests.yml?branch=main&style=flat-square)
-![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/Deyjandi/laravel-viva-wallet/php-cs-fixer.yml?branch=main&label=code%20style&style=flat-square)
-[![Total Downloads](https://img.shields.io/packagist/dt/deyjandi/laravel-viva-wallet.svg?style=flat-square)](https://packagist.org/packages/deyjandi/laravel-viva-wallet)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/KaziRayhan/laravel-viva-wallet.svg?style=flat-square)](https://packagist.org/packages/KaziRayhan/laravel-viva-wallet)
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/KaziRayhan/laravel-viva-wallet/run-tests.yml?branch=main&style=flat-square)
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/KaziRayhan/laravel-viva-wallet/php-cs-fixer.yml?branch=main&label=code%20style&style=flat-square)
+[![Total Downloads](https://img.shields.io/packagist/dt/KaziRayhan/laravel-viva-wallet.svg?style=flat-square)](https://packagist.org/packages/KaziRayhan/laravel-viva-wallet)
 
 ## Installation steps
 
 ### 1. install the package via composer:
 
 ```bash
-composer require deyjandi/laravel-viva-wallet
+composer require KaziRayhan/laravel-viva-wallet
 ```
 
 ### 2. Publish the `config` file with:
@@ -39,8 +39,8 @@ You can refer to the `./config/viva-wallet-config.php` for additional configurat
 ```php
 ...
 
-use Deyjandi\VivaWallet\Facades\VivaWallet;
-use Deyjandi\VivaWallet\Payment;
+use KaziRayhan\VivaWallet\Facades\VivaWallet;
+use KaziRayhan\VivaWallet\Payment;
 
 ...
 
@@ -56,11 +56,11 @@ $checkoutUrl = VivaWallet::createPaymentOrder($payment);
 ```php
 ...
 
-use Deyjandi\VivaWallet\Enums\RequestLang;
-use Deyjandi\VivaWallet\Enums\PaymentMethod;
-use Deyjandi\VivaWallet\Facades\VivaWallet;
-use Deyjandi\VivaWallet\Customer;
-use Deyjandi\VivaWallet\Payment;
+use KaziRayhan\VivaWallet\Enums\RequestLang;
+use KaziRayhan\VivaWallet\Enums\PaymentMethod;
+use KaziRayhan\VivaWallet\Facades\VivaWallet;
+use KaziRayhan\VivaWallet\Customer;
+use KaziRayhan\VivaWallet\Payment;
 
 ...
 
@@ -104,7 +104,7 @@ $checkoutUrl = VivaWallet::createPaymentOrder($payment);
 ```php
 ...
 
-use Deyjandi\VivaWallet\Facades\VivaWallet;
+use KaziRayhan\VivaWallet\Facades\VivaWallet;
 
 ...
 
@@ -140,7 +140,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Pavlos Kafritsas](https://github.com/Deyjandi)
+- [Pavlos Kafritsas](https://github.com/KaziRayhan)
 
 ## License
 

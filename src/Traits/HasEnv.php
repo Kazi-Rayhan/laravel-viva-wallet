@@ -1,8 +1,8 @@
 <?php
 
-namespace Deyjandi\VivaWallet\Traits;
+namespace KaziRayhan\VivaWallet\Traits;
 
-use Deyjandi\VivaWallet\Enums\Environment;
+use KaziRayhan\VivaWallet\Enums\Environment;
 
 trait HasEnv
 {

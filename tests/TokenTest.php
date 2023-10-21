@@ -1,6 +1,6 @@
 <?php
 
-use Deyjandi\VivaWallet\Token;
+use KaziRayhan\VivaWallet\Token;
 use Illuminate\Support\Carbon;
 
 it('can issue auth token', function () {

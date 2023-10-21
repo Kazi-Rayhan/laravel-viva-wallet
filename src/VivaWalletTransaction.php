@@ -1,9 +1,9 @@
 <?php
 
-namespace Deyjandi\VivaWallet;
+namespace KaziRayhan\VivaWallet;
 
-use Deyjandi\VivaWallet\Traits\HasClient;
-use Deyjandi\VivaWallet\Traits\HasEnv;
+use KaziRayhan\VivaWallet\Traits\HasClient;
+use KaziRayhan\VivaWallet\Traits\HasEnv;
 use InvalidArgumentException;
 use Ramsey\Uuid\Uuid;
 

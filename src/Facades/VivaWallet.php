@@ -1,11 +1,11 @@
 <?php
 
-namespace Deyjandi\VivaWallet\Facades;
+namespace KaziRayhan\VivaWallet\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Deyjandi\VivaWallet\VivaWallet
+ * @see \KaziRayhan\VivaWallet\VivaWallet
  */
 class VivaWallet extends Facade
 {

@@ -1,6 +1,6 @@
 <?php
 
-use Deyjandi\VivaWallet\Enums\PaymentMethod;
+use KaziRayhan\VivaWallet\Enums\PaymentMethod;
 
 return [
 
@@ -100,7 +100,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Here you can specify the default options for every
-    | \Deyjandi\VivaWallet\Facades\VivaWallet::createPaymentOrder() request.
+    | \KaziRayhan\VivaWallet\Facades\VivaWallet::createPaymentOrder() request.
     |
     | @see https://developer.vivawallet.com/apis-for-payments/payment-api/#tag/Payments
     | @see https://developer.vivawallet.com/smart-checkout/smart-checkout-implementation/

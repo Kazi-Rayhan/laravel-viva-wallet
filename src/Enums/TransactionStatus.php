@@ -1,6 +1,6 @@
 <?php
 
-namespace Deyjandi\VivaWallet\Enums;
+namespace KaziRayhan\VivaWallet\Enums;
 
 /**
  * Transaction Status ID parameter.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Deyjandi\VivaWallet\Enums;
+namespace KaziRayhan\VivaWallet\Enums;
 
 /**
  * @see https://developer.vivawallet.com/integration-reference/response-codes/#event-id-codes

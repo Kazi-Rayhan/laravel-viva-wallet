@@ -1,8 +1,8 @@
 <?php
 
-namespace Deyjandi\VivaWallet\Tests;
+namespace KaziRayhan\VivaWallet\Tests;
 
-use Deyjandi\VivaWallet\VivaWalletServiceProvider;
+use KaziRayhan\VivaWallet\VivaWalletServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

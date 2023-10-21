@@ -1,6 +1,6 @@
 <?php
 
-namespace Deyjandi\VivaWallet;
+namespace KaziRayhan\VivaWallet;
 
 class VivaWallet
 {

@@ -1,20 +1,20 @@
 {
-    "name": "deyjandi/laravel-viva-wallet",
+    "name": "kazi-rayhan/laravel-viva-wallet",
     "description": "Implementation of Viva Wallet's API for laravel projects",
     "keywords": [
-        "Deyjandi",
+        "kazi-rayhan",
         "laravel",
         "laravel-viva-wallet",
         "viva wallet",
         "viva-wallet",
         "VivaWallet"
     ],
-    "homepage": "https://github.com/deyjandi/laravel-viva-wallet",
+    "homepage": "https://github.com/Kazi-Rayhan/laravel-viva-wallet",
     "license": "MIT",
     "authors": [
         {
-            "name": "Pavlos Kafritsas",
-            "email": "pavkfr@hotmail.com",
+            "name": "Kazi Rayhan",
+            "email": "thisiskazi@gmail.com",
             "role": "Developer"
         }
     ],
@@ -39,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Deyjandi\\VivaWallet\\": "src",
-            "Deyjandi\\VivaWallet\\Database\\Factories\\": "database/factories"
+            "KaziRayhan\\VivaWallet\\": "src",
+            "KaziRayhan\\VivaWallet\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Deyjandi\\VivaWallet\\Tests\\": "tests"
+            "KaziRayhan\\VivaWallet\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -65,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Deyjandi\\VivaWallet\\VivaWalletServiceProvider"
+                "KaziRayhan\\VivaWallet\\VivaWalletServiceProvider"
             ],
             "aliases": {
-                "VivaWallet": "Deyjandi\\VivaWallet\\Facades\\VivaWallet"
+                "VivaWallet": "KaziRayhan\\VivaWallet\\Facades\\VivaWallet"
             }
         }
     },

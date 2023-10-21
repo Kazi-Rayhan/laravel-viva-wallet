@@ -1,8 +1,8 @@
 <?php
 
-namespace Deyjandi\VivaWallet;
+namespace KaziRayhan\VivaWallet;
 
-use Deyjandi\VivaWallet\Commands\RequestWebhookKey;
+use KaziRayhan\VivaWallet\Commands\RequestWebhookKey;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

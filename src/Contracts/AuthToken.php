@@ -1,6 +1,6 @@
 <?php
 
-namespace Deyjandi\VivaWallet\Contracts;
+namespace KaziRayhan\VivaWallet\Contracts;
 
 interface AuthToken
 {

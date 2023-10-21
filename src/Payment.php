@@ -1,11 +1,11 @@
 <?php
 
-namespace Deyjandi\VivaWallet;
+namespace KaziRayhan\VivaWallet;
 
-use Deyjandi\VivaWallet\Enums\PaymentMethod;
-use Deyjandi\VivaWallet\Traits\FiltersUnsetData;
-use Deyjandi\VivaWallet\Traits\HasClient;
-use Deyjandi\VivaWallet\Traits\HasEnv;
+use KaziRayhan\VivaWallet\Enums\PaymentMethod;
+use KaziRayhan\VivaWallet\Traits\FiltersUnsetData;
+use KaziRayhan\VivaWallet\Traits\HasClient;
+use KaziRayhan\VivaWallet\Traits\HasEnv;
 use InvalidArgumentException;
 
 class Payment
